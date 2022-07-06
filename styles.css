@@ -1,0 +1,99 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(99, 93, 122);
+}
+
+h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+form {
+  position: absolute;
+  top: 200px;
+  left: 275px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 266px;
+  position: absolute;
+  top: 0px;
+  left: 260px;
+}
+
+.card {
+  margin: 50px auto;
+  border: none;
+}
+
+.card-body {
+  background-color: rgb(135, 157, 164);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(135, 157, 164) 35%,
+    ivory 100%
+  );
+  border-radius: 25px;
+}
+
+.inner-card {
+  margin: 0 auto;
+  border-radius: 30px;
+  width: 625px;
+}
+
+.week {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.main {
+  color: rgb(238, 238, 238);
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.details {
+  color: #ffff;
+  list-style: none;
+  font-size: 14px;
+  position: absolute;
+  width: 175px;
+  height: 84px;
+  left: 525px;
+  top: 60px;
+}
+
+.col:hover {
+  background-color: rgb(255, 232, 182);
+  border-radius: 10px;
+}
+
+.small {
+  box-sizing: border-box;
+  text-align: left;
+}
